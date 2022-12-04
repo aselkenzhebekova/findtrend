@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/style/Styles.css">
+  <link rel="stylesheet" href="./assets/style/media.css">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <div class="container h-100 d-flex align-center">
+      <div class="header__logo d-flex align-center">
+        <a href="#" class="logo">
+          <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M20.6836 40C31.7293 40 40.6836 31.0457 40.6836 20C40.6836 8.95431 31.7293 0 20.6836 0C9.63788 0 0.683594 8.95431 0.683594 20C0.683594 31.0457 9.63788 40 20.6836 40ZM26.9229 9.31684C27.2266 8.23805 26.1797 7.60013 25.2236 8.2813L11.8767 17.7896C10.8398 18.5283 11.0029 20 12.1217 20H15.6363V19.9728H22.4861L16.9048 21.9421L14.4443 30.6832C14.1406 31.762 15.1874 32.3999 16.1436 31.7187L29.4905 22.2105C30.5274 21.4718 30.3642 20 29.2455 20H23.9157L26.9229 9.31684Z"
+              fill="#A8FF35" />
+          </svg>
+        </a>
+        <a href="" class="logo__findtrend">Findtrend</a>
+      </div>
+      <nav class="header__nav">
+        <a href="" class="header__link">About</a>
+        <a href="" class="header__link">How it work</a>
+        <a href="" class="header__link">Pricing</a>
+        <a href="" class="header__link">Solution</a>
+        <a href="" class="header__link">Features</a>
+      </nav>
+      <nav class="header__nav">
+        <a href="" class="header__link">Login</a>
+        <button class="btn">Register</button>
+      </nav>
+      <label class="burger">
+        <input type="checkbox" id="burger" hidden>
+        <label for="burger" class="burger__btn"></label>
+        <nav class="burger__nav d-flex flex-column align-center justify-center">
+          <a href="#" class="burger__link">About</a>
+          <a href="#" class="burger__link">How it work</a>
+          <a href="#" class="burger__link">Pricing</a>
+          <a href="#" class="burger__link">Solution</a>
+          <a href="#" class="burger__link">Features</a>
+          <a href="#" class="burger__link">Login</a>
+          <button class="btn">Register</button>
+        </nav>
+      </label>
+    </div>
+  </header>
+  <section class="hero d-flex justify-center" id="hero">
+    <div class="container d-flex align-center flex-column">
+      <h1 class="hero__title">Minimize your tabs. <br> Find the trends!</h1>
+      <p class="hero__desc">Don’t let your computer memories consumes all of those browser tabs. <br>
+        Findtrend let you gathers all of your favorite website into one place.</p>
+      <div class="hero__start">
+        <button class="hero__btn">Get Started 🔥</button>
+        <div class="hero__research">
+          <span class="hero__sm-desc">All research</span>
+          <span class="hero__sm-desc">start from here</span>
+        </div>
+        <svg class="hero__svg" width="42" height="38" viewBox="0 0 42 38" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_2_305)">
+            <path
+              d="M40.9312 10.422C41.3813 12.0722 40.659 13.3427 39.8416 14.4267C38.6846 15.9196 37.3551 17.3047 35.9306 18.5034C29.2238 23.8535 21.476 25.8576 13.0029 24.9813C10.8494 24.7508 8.69337 24.2083 6.30414 23.7458C6.77462 25.9732 8.56574 27.6426 9.17692 29.9155C8.16293 29.8466 7.70531 29.1796 7.31106 28.6369C5.70239 26.4041 4.10893 24.1243 2.57757 21.8128C1.85118 20.6957 1.95504 20.055 3.07289 19.4832C5.38588 18.2609 7.84599 17.8645 10.3911 18.3255C10.4849 18.3559 10.58 18.5423 10.7537 18.806C9.58401 20.6579 7.15666 19.3531 5.65614 20.7866C8.64883 22.5857 11.9266 23.0246 15.2017 23.1515C18.6328 23.2769 22.0143 23.0751 25.2957 22.0627C28.515 21.082 31.3704 19.4648 34.1611 17.5673C36.9836 15.7319 39.1621 13.3248 40.9312 10.422Z"
+              fill="white" />
+          </g>
+          <defs>
+            <clipPath id="clip0_2_305">
+              <rect width="28.3944" height="34.4457" fill="white"
+                transform="translate(41.518 10.6121) rotate(107.943)" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <div class="hero__search d-flex">
+        <div class="hero__product hero__twitter d-flex align-center justify-center">
+            <img src="./assets/images/twitter.png" alt="twitter">
+            <h3 class="hero__sm-title">Cryptopunk - Search</h3>  
+          <div class="hero__back-product"></div>
+          <span class="active">
+            <span class="cancel d-flex align-center">
+            </span>
+          </span>
+        </div>
+        <div class="hero__product hero__pinterest d-flex align-center justify-center">
+          <img src="./assets/images/pinterest.png" alt="pinterest">
+          <h3 class="hero__sm-title">Popular Design - Search</h3>
+          <span class="active">
+            <span class="cancel d-flex justify-center align-center"></span>
+          </span>
+        </div>
+        <div class="hero__product hero__facebook d-flex align-center justify-center">
+          <img src="./assets/images/facebook.png" alt="facebook">
+          <h3 class="hero__sm-title">Product Design - Search</h3>
+          <span class="active">
+            <span class="cancel d-flex justify-center align-center"></span>
+          </span>
+        </div>
+        <div class="hero__product hero__elon d-flex align-center justify-center">
+          <img src="./assets/images/elon.png" alt="elon musk">
+          <h3 class="hero__sm-title">Elon Musk - Search</h3>
+          <span class="active">
+            <span class="cancel d-flex justify-center align-center"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="tabs" id="tabs">
+    <div class="container d-flex flex-column align-center">
+      <h2 class="tabs__title">Open new tabs is sh*t </h2>
+      <div class="tabs__content d-flex align-center">
+        <div class="tabs__discover">
+          <svg width="40" height="21" viewBox="0 0 40 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M0.585933 20.2035C0.135796 18.5533 0.858113 17.2828 1.67551 16.1988C2.83254 14.7059 4.16196 13.3208 5.58646 12.1221C12.2933 6.77203 20.0411 4.76784 28.5142 5.64418C30.6677 5.87465 32.8237 6.4172 35.2129 6.87965C34.7425 4.65228 32.9513 2.98288 32.3402 0.709947C33.3542 0.778927 33.8118 1.44588 34.206 1.98856C35.8147 4.22138 37.4082 6.50114 38.9395 8.81268C39.6659 9.92978 39.562 10.5705 38.4442 11.1423C36.1312 12.3646 33.6711 12.761 31.126 12.3C31.0322 12.2696 30.9371 12.0832 30.7634 11.8194C31.9331 9.96757 34.3604 11.2724 35.861 9.8389C32.8683 8.03977 29.5905 7.60085 26.3154 7.47401C22.8843 7.34857 19.5028 7.5504 16.2214 8.56281C13.0021 9.54346 10.1467 11.1607 7.35595 13.0582C4.5335 14.8936 2.35499 17.3007 0.585933 20.2035Z"
+              fill="black" />
+          </svg> <br>
+          <span class="tabs__sm-desc">solution for <br> discover a trend</span>
+        </div>
+        <div class="tabs__findtrend d-flex align-center justify-center">
+          <div class="tabs__elon d-flex align-center justify-center">
+            <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M16.5482 31.8708C25.3135 31.8708 32.4192 24.7652 32.4192 15.9999C32.4192 7.23459 25.3135 0.128906 16.5482 0.128906C7.78291 0.128906 0.677246 7.23459 0.677246 15.9999C0.677246 24.7652 7.78291 31.8708 16.5482 31.8708ZM21.4994 7.52227C21.7404 6.6662 20.9097 6.15998 20.151 6.70052L9.55953 14.2458C8.7367 14.832 8.86613 15.9999 9.75395 15.9999H12.543V15.9783H17.9786L13.5496 17.541L11.5971 24.4775C11.356 25.3336 12.1867 25.8398 12.9455 25.2992L23.5369 17.754C24.3598 17.1678 24.2303 15.9999 23.3425 15.9999H19.1131L21.4994 7.52227Z"
+                fill="#A8FF35" />
+            </svg>
+            <h3 class="tabs__sm-title">Findtrend - Elon Musk</h3>
+            <span class="active">
+              <span class="cancel tabs__cancel d-flex align-center"></span>
+            </span>
+          </div>
+        </div>
+        <div class="tabs__tab">
+          <span class="tabs__sm-desc">You just need <br> one tab now</span><br>
+          <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M38.9312 0.422022C39.3813 2.07217 38.659 3.34267 37.8416 4.42673C36.6846 5.91956 35.3551 7.30469 33.9306 8.5034C27.2238 13.8535 19.476 15.8576 11.0029 14.9813C8.8494 14.7508 6.69337 14.2083 4.30414 13.7458C4.77462 15.9732 6.56574 17.6426 7.17692 19.9155C6.16293 19.8466 5.70531 19.1796 5.31106 18.6369C3.70239 16.4041 2.10893 14.1243 0.577566 11.8128C-0.148821 10.6957 -0.0449579 10.055 1.07289 9.48318C3.38588 8.26093 5.84599 7.86446 8.39112 8.32552C8.48491 8.3559 8.58 8.54231 8.75367 8.80605C7.58401 10.6579 5.15666 9.35312 3.65614 10.7866C6.64883 12.5857 9.92655 13.0246 13.2017 13.1515C16.6328 13.2769 20.0143 13.0751 23.2957 12.0627C26.515 11.082 29.3704 9.4648 32.1611 7.56726C34.9836 5.73186 37.1621 3.3248 38.9312 0.422022Z"
+              fill="black" />
+          </svg>
+        </div>
+      </div>
+      <p class="tabs__desc">A solution for your browser tabs and don’t make your device get slower over time. Get <br>
+        ease and faster to discover a trend with just one tab.</p>
+    </div>
+  </section>
+  <section class="findtrend" id="findtrend">
+    <div class="container">
+      <p class="findtrend__desc">Findtrend helps you to increase your productivity and reduce your computer's memory
+        load, <span class="findtrend__disabled">an application that can fulfill your daily browsing needs.</span></p>
+      <h4 class="findtrend__title">Findtrend make +1000 Startup grow</h4>
+      <div class="findtrend__grid">
+        <div class="findtrend__img">
+          <img src="./assets/images/microsoft.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/allianz.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/upwork.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/volvo.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/grab.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/verizon.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/coinbase.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/expedia.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/airtable.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/magento.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/carrera.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/bonanza.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/wetransfer.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/suzuki.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/algolia.jpg" alt="">
+        </div>
+        <div class="findtrend__img">
+          <img src="./assets/images/heineken.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="platform" id="platform">
+    <div class="container">
+      <h2 class="platform__title">All platform connect to Findtrend</h2>
+      <div class="platform__info platform__grid">
+        <div class="platform__img">
+          <img src="./assets/images/facebook-2.jpg" alt="">
+        </div>
+        <div class="platform__img">
+          <img src="./assets/images/twitter-2.jpg" alt="">
+        </div>
+        <div class="platform__img">
+          <img src="./assets/images/ball.jpg" alt="">
+        </div>
+        <div class="platform__img">
+          <img src="./assets/images/pint-2.jpg" alt="">
+        </div>
+        <div class="platform__img">
+          <img src="./assets/images/m.jpg" alt="">
+        </div>
+        <div class="platform__img">
+          <img src="./assets/images/teletubby.jpg" alt="">
+        </div>
+        <div class="platform__img">
+          <img src="./assets/images/vk.jpg" alt="">
+        </div>
+        <div class="platform__img">
+          <img src="./assets/images/in.jpg" alt="">
+        </div>
+      </div>
+      <div class="platform__content d-flex flex-column align-center">
+        <div class="platform__tweet">
+          <img src="./assets/images/tweet-1.jpg" alt="">
+        </div>
+        <div class="platform__tweet platform__musk">
+          <img src="./assets/images/tweet-2.jpg" alt="">
+        </div>
+        <div class="platform__tweet">
+          <img src="./assets/images/tweet-3.jpg" alt="">
+        </div>
+        <button class="platform__btn">View More Trend</button>
+      </div>
+    </div>
+  </section>
+  <section class="deal" id="deal">
+    <div class="container d-flex flex-column align-center justify-center">
+      <h2 class="deal__title">Get your best deal</h2>
+      <div class="deal__time d-flex align-center">
+        <h6 class="deal__monthly">Monthly</h6>
+        <button class="deal__first-btn"><span class="deal__choose"></span></button>
+        <h6 class="deal__year">Yearly</h6>
+        <div class="deal__save">
+          <div class="deal__percent">
+            <span class="deal__sm-desc">Save 10%</span>
+            <span class="deal__sm-desc">per month</span>
+          </div>
+          <svg width="42" height="38" viewBox="0 0 42 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_2_121)">
+              <path
+                d="M40.9307 10.4223C41.3809 12.0724 40.6585 13.3429 39.8412 14.427C38.6841 15.9198 37.3547 17.3049 35.9302 18.5036C29.2234 23.8537 21.4756 25.8579 13.0024 24.9816C10.849 24.7511 8.69294 24.2085 6.30372 23.7461C6.77419 25.9735 8.56532 27.6429 9.17649 29.9158C8.16251 29.8468 7.70488 29.1798 7.31064 28.6372C5.70197 26.4044 4.1085 24.1246 2.57714 21.8131C1.85075 20.6959 1.95461 20.0552 3.07246 19.4834C5.38545 18.2612 7.84556 17.8647 10.3907 18.3258C10.4845 18.3561 10.5796 18.5425 10.7532 18.8063C9.58358 20.6582 7.15623 19.3534 5.65571 20.7868C8.6484 22.586 11.9261 23.0249 15.2013 23.1517C18.6323 23.2772 22.0139 23.0753 25.2953 22.0629C28.5145 21.0823 31.37 19.465 34.1607 17.5675C36.9832 15.7321 39.1617 13.325 40.9307 10.4223Z"
+                fill="white" />
+            </g>
+            <defs>
+              <clipPath id="clip0_2_121">
+                <rect width="28.3944" height="34.4457" fill="white"
+                  transform="translate(41.5176 10.6123) rotate(107.943)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div class="deal__packet deal__grid">
+        <div class="deal__card deal__personal d-flex flex-column justify-between">
+          <div class="deal__content">
+            <h4 class="deal__heading">Personal</h4>
+            <p class="deal__md-desc">Special first packet for all</p>
+            <div class="deal__border"></div>
+            <div class="deal__info">
+              <p class="deal__price">$8 <span class="deal__month">/Month</span></p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                Up to 5 page each group
+              </p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                Up to 10 group page
+              </p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                5 Days group page saved
+              </p>
+            </div>
+          </div>
+          <div class="deal__start">
+            <button class="deal__second-btn deal__second-btn_green">Start Free Trial</button>
+          </div>
+        </div>
+        <div class="deal__card deal__regular d-flex flex-column justify-between">
+          <div class="deal__content">
+            <h4 class="deal__heading">Regular</h4>
+            <p class="deal__md-desc">Recommended for personal pro</p>
+            <div class="deal__border"></div>
+            <div class="deal__info">
+              <p class="deal__price">$20 <span class="deal__month">/Month</span></p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                Up to 15 page each group
+              </p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                Download page up to 20 page
+              </p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                Up to 10 group page
+              </p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                15 Days group page saved
+              </p>
+            </div>
+          </div>
+          <button class="deal__second-btn deal__second-btn_black">Start Free Trial</button>
+        </div>
+        <div class="deal__card deal__personal d-flex flex-column justify-between">
+          <div class="deal__content">
+            <h4 class="deal__heading">Premium</h4>
+            <p class="deal__md-desc">Packet for Startup & Company</p>
+            <div class="deal__border"></div>
+            <div class="deal__info">
+              <p class="deal__price">$48 <span class="deal__month">/Month</span></p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                Unlimited group pages
+              </p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                Unlimited download page
+              </p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                Unlimited page each group
+              </p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                Customize sorting group pages
+              </p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                Customize group page name
+              </p>
+              <p class="deal__desc">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6946 0.931356C14.1467 1.45305 14.0904 2.2425 13.5687 2.69463L6.06866 9.19463C5.57308 9.62413 4.82984 9.59762 4.36612 9.1339L0.366117 5.1339C-0.122039 4.64575 -0.122039 3.85429 0.366117 3.36614C0.854272 2.87798 1.64573 2.87798 2.13388 3.36614L5.31088 6.54314L11.9313 0.805408C12.453 0.353273 13.2425 0.409662 13.6946 0.931356Z"
+                    fill="black" />
+                </svg>
+                30 Days group page saved
+              </p>
+            </div>
+          </div>
+          <div class="deal__start">
+            <button class="deal__second-btn deal__second-btn_green">Start Free Trial</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="join" id="join">
+    <div class="container d-flex flex-column align-center">
+      <h2 class="join__title">Join us on email for <br> <span class="join__title_disabled">more trending topics</span>
+      </h2>
+      <button class="join__btn">Join Now</button>
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    <div class="container d-flex align-center">
+      <div class="footer__logo d-flex align-center">
+        <a href="#" class="logo">
+          <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M20.6841 40C31.7298 40 40.6841 31.0457 40.6841 20C40.6841 8.95431 31.7298 0 20.6841 0C9.63837 0 0.684082 8.95431 0.684082 20C0.684082 31.0457 9.63837 40 20.6841 40ZM26.9234 9.31684C27.2271 8.23805 26.1802 7.60013 25.2241 8.2813L11.8772 17.7896C10.8403 18.5283 11.0034 20 12.1222 20H15.6368V19.9728H22.4866L16.9053 21.9421L14.4448 30.6832C14.1411 31.762 15.1879 32.3999 16.1441 31.7187L29.491 22.2105C30.5279 21.4718 30.3647 20 29.246 20H23.9162L26.9234 9.31684Z"
+              fill="black" />
+          </svg>
+        </a>
+        <a href="" class="logo__findtrend">Findtrend</a>
+      </div>
+      <nav class="footer__nav">
+        <a class="footer__link" href="">Privacy Policy</a>
+        <a class="footer__link" href="">Terms and Conditions</a>
+        <a class="footer__link" href="">Contact Us</a>
+        <a class="footer__link" href="">Careers</a>
+      </nav>
+    </div>
+  </footer>
+  
+</body>
+
+</html>
