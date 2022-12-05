@@ -144,7 +144,7 @@
   position: absolute;
   background-color: var(--dark);
   left: 0;
-  top: -450px;
+  top: -540px;
   width: 100%;
   transition: 0.6s;
 }
@@ -156,6 +156,9 @@
   line-height: 100%;
   color: var(--light);
   margin-bottom: 40px;
+}
+.burger__link:first-child {
+  margin-top: 104px;
 }
 
 #burger:checked + .burger__btn {
@@ -566,6 +569,11 @@
   color: #F5F5F5;
   opacity: 0.5;
   margin-right: 24px;
+}
+.deal__save {
+  position: relative;
+  bottom: 107px;
+  left: 208px;
 }
 .deal__percent {
   max-width: 71px;
