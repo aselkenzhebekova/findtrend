@@ -423,18 +423,22 @@
     font-size: 18px;
   }
   .deal__time {
-    margin-bottom: 91px;
+    margin-bottom: 0;
   }
   .deal__save {
     display: flex;
     flex-direction: column-reverse;
     position: relative;
-    top: -81px;
+    top: -13px;
     right: 0;
     left: 70px;
   }
+  .deal__packet {
+    margin-top: 17px;
+  }
   .deal__card {
     height: 602px;
+    padding: 30px 30px 24px;
   }
   .deal__heading {
     font-size: 32px;
