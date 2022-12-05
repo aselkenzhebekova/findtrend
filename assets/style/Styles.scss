@@ -139,7 +139,7 @@
     position: absolute;
     background-color: var(--dark);
     left: 0;
-    top: -450px;
+    top: -540px;
     width: 100%;
     transition: .6s;
   }
@@ -151,6 +151,9 @@
     line-height: 100%;
     color: var(--light);
     margin-bottom: 40px;
+    &:first-child {
+      margin-top: 104px;
+    }
   }
 }
 #burger {
@@ -557,6 +560,11 @@
     color: #F5F5F5;
     opacity: 0.5;
     margin-right: 24px;
+  }
+  &__save {
+    position: relative;
+    bottom: 107px;
+    left: 208px;
   }
   &__percent {
     max-width: 71px;
