@@ -96,9 +96,12 @@
 .header {
   height: 99px;
   position: absolute;
+  top: 0;
   width: 100%;
-  color: var(--light);
   z-index: 1;
+  & .container {
+    color: var(--light);
+  }
   & .logo {
     
     position: relative;
@@ -264,6 +267,9 @@
     position: relative;
     left: 0;
     right: 0;
+    box-shadow: 9px 9px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 9px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 9px 5px 0px rgba(0,0,0,0.75);
   }
   &__sm-title {
     font-family: 'Roboto';
@@ -277,12 +283,18 @@
     z-index: 3;
     margin-top: 60px;
     margin-left: -136px;
+    box-shadow: 9px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 0px 5px 0px rgba(0,0,0,0.75);
   }
   &__facebook {
     transform: rotate(-2deg);
     margin-left: -90px;
     z-index: 2;
     margin-top: 6px;
+    box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75);
   }
   &__elon {
     transform: rotate(4deg);
@@ -351,11 +363,11 @@
     color: var(--dark);
     margin-bottom: 60px;
   }
-  &__discover {
+  &__solution {
     margin-right: 26px;
     margin-top: 24px;
   }
-  &__discover svg {
+  &__discover-svg {
     margin-left: 46px;
   }
   &__sm-desc {
@@ -398,7 +410,7 @@
     background: linear-gradient(270deg, #030303 53.65%, rgba(3, 3, 3, 0.6) 100%);
     z-index: 1;
   }
-  &__tab {
+  &__one {
     margin-left: 24px;
     margin-bottom: 42px;
   }
