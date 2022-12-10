@@ -100,9 +100,12 @@
 .header {
   height: 99px;
   position: absolute;
+  top: 0;
   width: 100%;
-  color: var(--light);
   z-index: 1;
+}
+.header .container {
+  color: var(--light);
 }
 .header .logo {
   position: relative;

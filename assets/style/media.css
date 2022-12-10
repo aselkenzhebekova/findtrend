@@ -241,6 +241,11 @@
 .hero__desc {
   font-size: 15px;
 } 
+.hero__product {
+  box-shadow: 6px 12px 6px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 6px 12px 6px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 12px 6px 0px rgba(0,0,0,0.75);
+}
   .hero__search {
     display: block;
     margin-top: 60px;
@@ -248,6 +253,9 @@
   .hero__pinterest {
     margin-top: 4px;
     margin-left: 0;
+    box-shadow: 6px 12px 6px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 12px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 12px 6px 0px rgba(0,0,0,0.75);
   }
   .hero__facebook  {
     margin-top: -3px;
@@ -313,6 +321,9 @@
   }
   .container {
     max-width: 600px;
+  }
+  .hero {
+    height: 800px;
   }
   .hero__title {
     font-size: 36px;
